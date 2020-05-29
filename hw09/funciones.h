@@ -35,7 +35,7 @@ double * rungekutta4(double dt,double t,double X, double V){
     return res;
 }
 
-double * movimiento(double y[401],double v[401]){
+double * parabola(double y[401],double v[401]){
     double dt = 0.01;
     double newT = 0;
     double * t = new double[401];

@@ -1,5 +1,5 @@
 g++ main.cpp
 
-./a.out >> datos.txt
+./a.out >> respuesta.txt
 
 python grafica.py
